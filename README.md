@@ -1,7 +1,7 @@
 livephp
 =======
 
-LivePHP will save developers time by automatically refreshing the browser when any files are changed the working directory.
+LivePHP will save developers time by automatically refreshing the browser when any file is changed in the working directory.
 
 == Description == 
 
