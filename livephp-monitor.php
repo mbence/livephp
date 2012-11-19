@@ -3,7 +3,7 @@
  * Live.php file monitor
  * @author Bence Meszaros
  * @link http://bencemeszaros.com
- * @version 1.4
+ * @version 1.1
  */
 
 if (!class_exists('LiveMonitor'))
@@ -80,6 +80,8 @@ if (!class_exists('LiveMonitor'))
          */
         protected function main($start)
         {
+			// clear file status cache
+			clearstatcache();
             // long polling loop
             do
             {
