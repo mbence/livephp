@@ -87,7 +87,7 @@ var LivePhp = {
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4) {
                 var restart = new Date() * 1;
-                if (xhr.status == 200) {
+                if (xhr.responseText != '' && xhr.status == 200) {
                     var re = JSON.parse(xhr.responseText);
 
                     if (re === true) {
