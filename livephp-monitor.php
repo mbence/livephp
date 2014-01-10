@@ -6,7 +6,7 @@
  * @version 1.1
  */
 
-namespace MBence\LivePHPBundle;
+namespace MBence\LivePHP;
 
 if (!class_exists('LiveMonitor'))
 {
