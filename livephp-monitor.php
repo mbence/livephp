@@ -6,6 +6,8 @@
  * @version 1.1
  */
 
+namespace MBence\LivePHPBundle;
+
 if (!class_exists('LiveMonitor'))
 {
     class LiveMonitor
