@@ -19,4 +19,4 @@ You should never activate this on a live server! It is meant for developer envir
 
 == Installation ==
 
-Copy the included files in your directory and include the livephp.js script in your html. Opitonally you can set the directories to monitor or ignore in the livephp-monitor.php file
+Copy the included files in your directory and include the livephp.js script in your html. Optionally you can set the directories to monitor or ignore in the livephp-monitor.php file
