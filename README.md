@@ -7,7 +7,7 @@ LivePHP will save developers time by automatically refreshing the browser when a
 
 This little script was written to make developers' life easier.
 Inspired by the brilliant live.js script (written by Martin Kool),
-this script will auto refresh your browser if you change any files in your working directory. No need for Alt-Tab and manual refresh anymore.
+this script will auto refresh your browser if you change any file in your working directory. No need for Alt-Tab and manual refresh anymore.
 
 New feature with v1.2: Css files are now refreshed without reloading the whole page.
 

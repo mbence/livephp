@@ -2,7 +2,7 @@
  * Live.php
  * @author Bence Meszaros
  * @link http://bencemeszaros.com
- * @version 1.0
+ * @version 1.2
  */
 
 var LivePhp = {
@@ -17,7 +17,7 @@ var LivePhp = {
     /** Initializes the start time and the query cicle */
     init: function() {
         // get the url for our php script (which is just beside this js file)
-        LivePhp.url = LivePhp.scriptSource().replace(/\\/g, '/').replace(/\/[^\/]*\/?$/, '') + '/livephp-monitor.php';
+        LivePhp.url = LivePhp.scriptSource().replace(/\\/g, '/').replace(/\/[^\/]*\/?$/, '') + '/livephpmonitor.php';
 
         if (0 === LivePhp.start) {
             LivePhp.start = new Date() * 1;

@@ -3,7 +3,7 @@
  * Live.php file monitor
  * @author Bence Meszaros
  * @link http://bencemeszaros.com
- * @version 1.1
+ * @version 1.2
  */
 
 namespace MBence\LivePHP;
@@ -167,3 +167,5 @@ class LivephpMonitor
     }
 
 } // end LivephpMonitor
+
+new LivephpMonitor();
